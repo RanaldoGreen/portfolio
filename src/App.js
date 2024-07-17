@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react';
+import './assets/css/main.css';
+import Header from './components/Header';
+import Banner from './components/Banner';
+import SectionOne from './components/SectionOne';
+import SectionTwo from './components/SectionTwo';
+import SectionThree from './components/SectionThree';
+import CTA from './components/CTA';
+import Footer from './components/Footer';
 
-function App() {
+const App = () => {
+  useEffect(() => {
+    // Ensure your scripts are executed after the component mounts
+    const script = document.createElement('script');
+    script.src = process.env.PUBLIC_URL + '/js/main.js';
+    script.async = true;
+    document.body.appendChild(script);
+    
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="landing is-preload">
+      <Header />
+      <Banner />
+      <SectionOne />
+      <SectionTwo />
+      <SectionThree />
+      <CTA />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
