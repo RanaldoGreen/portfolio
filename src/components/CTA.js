@@ -4,13 +4,10 @@ const CTA = () => (
     <section id="cta" className="wrapper style4">
         <div className="inner">
             <header>
-                <h2>Arcue ut vel commodo</h2>
-                <p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+                <h2>Thank You for Visiting!</h2>
+                <p>"The best way to predict the future is to invent it." - Alan Kay. <br>
+                </br>For more information about my work, see contact information below.</p>
             </header>
-            <ul className="actions stacked">
-                <li><a href="#" className="button fit primary">Activate</a></li>
-                <li><a href="#" className="button fit">Learn More</a></li>
-            </ul>
         </div>
     </section>
 );

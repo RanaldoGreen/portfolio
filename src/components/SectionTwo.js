@@ -8,15 +8,16 @@ const SectionTwo = () => (
         <section className="spotlight">
             <div className="image"><img src={logo1} alt="" /></div>
             <div className="content">
-                <h2>Magna primis lobortis<br />sed ullamcorper</h2>
-                <p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+                <h2>RESTful API for Online Course Platform</h2>
+                <p>Developed a comprehensive RESTful API to mimic an online course container. The project includes a fully integrated frontend, 
+                    and is designed to handle various functionalities such as course creation, student registration, and content delivery.</p>
             </div>
         </section>
         <section className="spotlight">
             <div className="image"><img src={logo2} alt="" /></div>
             <div className="content">
-                <h2>Tortor dolore feugiat<br />elementum magna</h2>
-                <p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+                <h2>AI-Powered Book Analysis</h2>
+                <p>Developed a Flask application that accepts PDF book uploads. It suggests questions, summarizes the book, and generates quizzes based on the content.</p>
             </div>
         </section>
         <section className="spotlight">

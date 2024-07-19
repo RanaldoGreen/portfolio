@@ -4,38 +4,38 @@ const SectionThree = () => (
     <section id="three" className="wrapper style3 special">
         <div className="inner">
             <header className="major">
-                <h2>Accumsan mus tortor nunc aliquet</h2>
-                <p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-                fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+                <h2>Technical Skills</h2>
+                <p>A showcase of the programming languages and technologies I am proficient in.</p>
             </header>
             <ul className="features">
-                <li className="icon fa-paper-plane">
-                    <h3>Arcu accumsan</h3>
-                    <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-                </li>
-                <li className="icon solid fa-laptop">
-                    <h3>Ac Augue Eget</h3>
-                    <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-                </li>
                 <li className="icon solid fa-code">
-                    <h3>Mus Scelerisque</h3>
-                    <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+                    <h3>JavaScript</h3>
+                    <p>Experienced in building dynamic and interactive web applications using JavaScript and modern frameworks like React and Node.js.</p>
                 </li>
-                <li className="icon solid fa-headphones-alt">
-                    <h3>Mauris Imperdiet</h3>
-                    <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+                <li className="icon solid fa-laptop-code">
+                    <h3>Python</h3>
+                    <p>Proficient in Python for scripting, automation, and data analysis with libraries such as Pandas and NumPy.</p>
                 </li>
-                <li className="icon fa-heart">
-                    <h3>Aenean Primis</h3>
-                    <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+                <li className="icon solid fa-database">
+                    <h3>SQL</h3>
+                    <p>Skilled in database management and querying using SQL, with experience in MySQL and PostgreSQL.</p>
                 </li>
-                <li className="icon fa-flag">
-                    <h3>Tortor Ut</h3>
-                    <p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+                <li className="icon solid fa-file-code">
+                    <h3>HTML & CSS</h3>
+                    <p>Strong understanding of HTML and CSS for creating responsive and accessible web pages.</p>
+                </li>
+                <li className="icon solid fa-network-wired">
+                    <h3>API Development</h3>
+                    <p>Experienced in designing and implementing RESTful APIs using Express.js and Flask, ensuring efficient and secure data exchange.</p>
+                </li>
+                <li className="icon solid fa-code-branch">
+                    <h3>Version Control</h3>
+                    <p>Proficient in using Git for version control, collaborating on projects, and managing codebases efficiently.</p>
                 </li>
             </ul>
         </div>
     </section>
+
 );
 
 export default SectionThree;

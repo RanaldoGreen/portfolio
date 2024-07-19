@@ -3753,21 +3753,13 @@ input, select, textarea {
 /* CTA */
 
 	#cta .inner {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		max-width: 45em;
+		margin: 0 auto;
+		text-align: center;
 	}
 
-		#cta .inner header {
-			-moz-order: 1;
-			-webkit-order: 1;
-			-ms-order: 1;
-			order: 1;
-			padding-right: 3em;
-			width: 70%;
-		}
+	#footer h1{
+		color: #b7301f;
+	}
 
 			#cta .inner header p {
 				color: inherit;
