@@ -1,8 +1,10 @@
 import React from 'react';
+import logo1 from './images/pic.webp';
 
 const SectionOne = () => (
     <section id="one" className="wrapper style1 special">
         <div className="inner">
+            <img src={logo1} alt="Profile" className="profile-pic" />
             <header className="major">
                 <h2>About Me</h2>
                 <p>
